@@ -1,6 +1,7 @@
 package main
 
 import "github.com/gofiber/fiber/v2"
+import "fmt"
 
 func main() {
   app := fiber.New()
@@ -9,5 +10,6 @@ func main() {
     return c.SendString("Hello, World!")
   })
 
+  fmt.Println("server listening 8080")
   app.Listen(":8080")
 }
