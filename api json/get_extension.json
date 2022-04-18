@@ -1,0 +1,22 @@
+
+//api get_extension 
+// request
+token: token
+{
+    "client": "hifpt"/ "fconnect"
+}
+
+//response
+{
+  "detail": {
+    "user_id": "abc",
+    "name": "khoa",
+    "avatar": "https://...",
+    "password": "12345678a@",
+    "expired_time": "10:00:00 15/04/2022",
+    "port": 5022,
+    "host": "https://..."
+  },
+  "status": 1,
+  "message": "Thanh cong"
+}

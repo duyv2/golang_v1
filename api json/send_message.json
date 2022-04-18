@@ -1,0 +1,35 @@
+//api send message 
+// request
+token
+{
+  "channel_id": 1,
+  "chat_message": {
+        "message": "hello",
+        "image": [
+          "https://...",
+          "https://..."
+        ]
+    }
+
+  "from_extension": {
+    "user_id": "abc",
+    "name": "Khoa",
+    "avatar": "https://"
+  }
+  "client": "hifpt"/ "fconnect"
+}
+
+//response
+{
+  "detail": {
+        "id": 1,
+        "message": "hello",
+        "image": [
+          "https://...",
+          "https://..."
+        ],
+        "create_time": "10:00:00 15/04/2022"
+    },
+  "status": 1,
+  "message": "Thanh cong"
+}

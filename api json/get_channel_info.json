@@ -1,0 +1,50 @@
+
+//api get_chat_history 
+// request
+token: khoa
+{
+    "service_info": {
+        "server_id": 1,
+        "service_code": "some_service"
+    }
+   // "page": "0"
+   "client": "hifpt"/ "fconnect"
+}
+
+//response
+{
+  "detail": {
+    "channel_id": 1,
+    "to_extension": {
+      "user_id": "khoa1",
+      "name": "Khoa1",
+      "avatar": "https://"
+    },
+    "from_extension": {
+        "user_id": "khoa",
+        "name": "Khoa",
+        "avatar": "https://"
+    }
+    
+    "chat_history": [
+      {
+        "id": 1,
+        "create_by": {
+          "user_id": "abc",
+          "name": "Khoa",
+          "avatar": "https://"
+          },
+        "create_time": "10:00:00 15/04/2022",
+        "chat_message": {
+          "message": "hello",
+          "image": [
+            "https://...",
+            "https://..."
+            ]
+          }
+        }
+    ]
+  },
+  "status": 1,
+  "message": "Thanh cong"
+}

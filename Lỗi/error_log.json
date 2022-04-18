@@ -1,0 +1,12 @@
+[
+  {
+    "error":"Error Domain=XMPPStreamErrorDomain Code=4 \"The server does not support startTLS. And the startTLSPolicy is Required",
+    "reason":"Do server không cung cấp được chứng chỉ tls, không thể chạy trên https",
+    "fix":"Cung cấp chứng chỉ cho server, hoặc tắt tls cả 2 phía (client và server (mở file .yml tìm tls, cài về false hoặc xóa đi))"
+  },
+  {
+    "error":"GCDAsyncSocketErrorDomain Code=4 \"Read operation timed out\" UserInfo={NSLocalizedDescription=Read operation timed out",
+    "reason":"Một trong những nguyên nhân chính là do sai port khi client kết nối đến server, https://docs.ejabberd.im/admin/guide/security/ hoặc tìm thêm 1 số danh sách port",
+    "fix":"Chỉnh lại port"
+  }
+]
